@@ -1,0 +1,1 @@
+-lalleg -lfreetype -llvgl -liconv 

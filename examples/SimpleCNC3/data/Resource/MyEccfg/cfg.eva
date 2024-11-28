@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EtherCATVirtualArduino Version="20230213">
+    <Master Redundant="0" IgnoreOverride="1" DcMode="1">
+        <ObjectName><![CDATA[EcatMaster]]></ObjectName>
+        <CycleTime>125000</CycleTime>
+        <MaxDigitalPins>32</MaxDigitalPins>
+        <MaxLcds>4</MaxLcds>
+        <MaxSerials>4</MaxSerials>
+        <MaxLcms>4</MaxLcms>
+        <MaxMpgs>4</MaxMpgs>
+        <MaxKeypads>4</MaxKeypads>
+        <MaxBuzzerPins>4</MaxBuzzerPins>
+        <MaxMicrophones>4</MaxMicrophones>
+        <MaxSpeakers>4</MaxSpeakers>
+        <MaxCounterPins>32</MaxCounterPins>
+        <MaxMachines>4</MaxMachines>
+        <MaxEncoders>3</MaxEncoders>
+        <MaxServos>8</MaxServos>
+    </Master>
+    <Slave>
+        <ObjectName><![CDATA[Slave0]]></ObjectName>
+        <VendorId>3011</VendorId>
+        <ProductCode>8835286</ProductCode>
+        <AliasAddress>500</AliasAddress>
+        <HaveMCU>1</HaveMCU>
+        <Type>5</Type>
+        <Mapping>
+            <MachineNumber>0</MachineNumber>
+            <EncoderNumber>0</EncoderNumber>
+            <EncoderNumber>1</EncoderNumber>
+            <EncoderNumber>2</EncoderNumber>
+            <ServoNumber>-1</ServoNumber>
+            <ServoNumber>-1</ServoNumber>
+            <ServoNumber>-1</ServoNumber>
+        </Mapping>
+        <MachineSettings>
+            <MotorMode>1</MotorMode>
+        </MachineSettings>
+    </Slave>
+</EtherCATVirtualArduino>
